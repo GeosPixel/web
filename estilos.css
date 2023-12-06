@@ -1,0 +1,391 @@
+*{box-sizing: border-box;}
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    
+}
+
+body {
+    min-height: 100%;
+    overflow-y: scroll;
+    position: relative;
+}
+ 
+body, html {
+    color: #211922;
+    font-family: robot,sans-serif;
+    font-size: 12px;
+}
+.MasterContainer
+{
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Header{position: absolute; width: 100%; z-index: 610;background: #8e14b8;}
+.SubHeader
+{
+    
+    height: 80px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+
+    
+}
+.Marco
+{
+    padding: 4px 16px 4px 16px;
+    flex: 1 1 auto;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+/*Contenedores  --------------------------------------*/
+
+
+.Contenedor
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 56px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Contenedor2
+{
+    
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 56px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/*Logo ------------------------*/
+.Logo
+{
+
+    box-sizing: border-box;
+    width:  48px;
+    height: 48px;
+    
+}
+
+
+.Img_Logo
+{
+
+    width:  24px;
+    height: 24px;
+    margin: 12px 12px ;
+    
+}
+.Logo:hover
+{
+    
+    background: rgba(0,0,0,0.08);
+    border-radius: 100px;
+    
+}
+
+.Logo2
+{
+
+    box-sizing: border-box;
+    min-width: 10%;
+    min-height:10%;
+    
+}
+
+
+.Img_Logo2
+{
+
+    width:  24px;
+    height: 24px;
+    margin: 12px 12px ;
+    
+}
+.Logo2:hover
+{
+    
+    background: rgba(0,0,0,0.08);
+    border-radius: 100px;
+    
+}
+
+/*Inicio ----------------------*/
+.Inicio
+{
+    
+    width:  48px;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    padding-top: 3px;
+    padding-left: 2px;
+        
+}
+.Inicio:active
+{
+    
+   background: rgba(0,0,0,0.3);
+   border-radius: 5px;
+    
+}
+
+.A
+{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    
+    
+    
+}
+.A:active
+{
+    
+    color: aliceblue;
+    
+}
+.Explorar
+{
+    
+    width:  60px;
+    height: 30px;
+    margin: 0px 10px 0px 10px;
+    padding-top: 3px;
+    padding-left: 2px;
+    z-index: 610;
+    
+}
+.Explorar:active
+{
+    
+   background: rgba(0,0,0,0.3);
+   border-radius: 5px;
+    
+}
+
+/*Buscador -------------------*/
+.Contenedor_Busqueda
+{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: auto;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+   
+    
+}
+.Fondo_Busqueda
+{
+    
+    background-color: #e9e9e9;
+    border-radius: 50px 50px 50px 50px;
+    min-width: 20px;
+    flex: 0.75 0.75 auto;
+    box-sizing: border-box;
+    
+    
+}
+.tabla_busqueda
+{
+
+    padding: 0 0 0 16px;
+    height: 100%;
+    flex: 0.75 0.75 auto;
+
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.Icon_Busqueda
+{
+    
+    box-sizing: border-box;
+    width:  30px;
+    height: 48px;   
+    
+    
+}
+.Lupa_Icom
+{
+
+    width:  20px;
+    height: 20px;
+    margin: 12px 0px 0px 0px;
+    
+       
+}
+.Buscador
+{
+    
+    height: 100%;
+    flex: 1 1 auto;
+    
+
+}
+.buscador
+{
+    
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: normal;
+    height: 50px;
+    outline: none;
+    padding-left: 5px;
+    width: 100%;
+    
+    
+}
+.Fondo_Busqueda:hover
+{
+    
+
+    background-color: rgba(0,0,0,0.12);
+    border-radius: 50px 50px 50px 50px;
+    min-width: 20px;
+    flex: 0.75 0.75 auto;
+    box-sizing: border-box;
+    
+}
+
+
+.buscador:hover
+{
+    
+    color: #fff;
+    
+}
+
+
+/*Body    ---------------------------------------*/
+
+
+
+.App_Body
+{
+
+    
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+.base
+{
+    padding-top: 80px;
+    height: 4630px;
+    width: 100%;
+    
+    
+}
+.main_container
+{
+    
+    height: 4630px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+/*-------------------------   RESPONSIVE    ------------------------------------------------------*/
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+
+.Buscador
+{
+        
+display: none;
+        
+}
+.tabla_busqueda
+{
+    
+    padding: 0px 0px 0px 12px;
+    height: 100%;
+    flex: 0.75 0.75;
+
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.Contenedor_Busqueda
+{
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 50px;
+    flex: 0.3 0.3;
+    box-sizing: border-box;
+   
+    
+}
+
+.Fondo_Busqueda
+{
+    
+    background-color: transparent;
+
+}
+.Fondo_Busqueda:hover
+{
+    
+    background-color: rgba(0,0,0,0.08);
+
+}
+
+.Lupa_Icom
+{
+
+    width:  24px;
+    height: 24px;
+    margin: 12px 0px 0px 0px;
+    
+       
+}
+    
+.Fondo_Busqueda ~ .Buscador:hover
+{
+    
+
+    
+}
+    
+}
